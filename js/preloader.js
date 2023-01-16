@@ -11,7 +11,7 @@ padding:"inner"+a,content:b,"":"outer"+a},function(c,d){n.fn[d]=function(d,e){va
   $(window).on('load', function () {
     $('#preloader .inner').delay(2000).fadeOut();
     $('#preloader').delay(2000).fadeOut('slow'); 
-    $('body').delay(10).css({'overflow': 'visible'});
+    $('body').delay(5).css({'overflow': 'visible'});
   })
   //]]>
   
